@@ -18,6 +18,9 @@ URL = "css/fa.css"
 [[params.plugins.css]]
 URL = "css/social.css"
 
+[[params.plugins.favicon]]
+URL = "images/favicon.png"
+
 [params]
 typerfile = "js/typer.txt"
 
