@@ -23,6 +23,7 @@ URL = "images/favicon.png"
 
 [params]
 typerfile = "js/typer.txt"
+title = "SeattleCTF | Become L33t"
 
 [[params.social]]
   name = "Slack"
