@@ -1,3 +1,43 @@
 baseURL = "https://seattlectf.com/"
 languageCode = "en-us"
 title = "SeattleCTF"
+theme = "typer"
+
+#JS plugins
+#place jquery first always
+[[params.plugins.js]]
+URL = "js/jquery.min.js"
+[[params.plugins.js]]
+URL = "js/typer.js"
+
+#CSS
+[[params.plugins.css]]
+URL = "css/typer.css"
+[[params.plugins.css]]
+URL = "css/fa.css"
+[[params.plugins.css]]
+URL = "css/social.css"
+
+[params]
+typerfile = "js/typer.txt"
+
+[[params.social]]
+  name = "Slack"
+  icon = "fab fa-slack"
+  weight = "1"
+  url = "https://joinslack.seattlectf.com"
+[[params.social]]
+  name = "Meetup"
+  icon = "fab fa-meetup"
+  weight = "2"
+  url = "https://www.meetup.com/seattlectf/"
+[[params.social]]
+  name = "Git"
+  icon = "fab fa-git"
+  weight = "3"
+  url = "https://git.seattlectf.com"
+[[params.social]]
+  name = "Twitter"
+  icon = "fab fa-twitter"
+  weight = "4"
+  url = "https://twitter.com/seattlectf"

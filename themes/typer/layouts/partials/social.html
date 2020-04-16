@@ -1,0 +1,13 @@
+<div id="social" class="fade-in">
+{{ with .Site.Params.social }}
+  {{ range sort . "weight"}}
+      <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
+        {{ if .icon }}
+          <i class="{{ .icon }}" aria-hidden="true"></i>
+        {{ else }}
+          {{ .name }}
+        {{ end }}
+      </a>
+  {{ end }}
+{{ end }}
+</div>

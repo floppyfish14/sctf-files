@@ -1,0 +1,3 @@
+{{ range .Site.Params.plugins.css }}
+<link rel="stylesheet" href="{{ .URL | absURL }} ">
+{{ end }}
