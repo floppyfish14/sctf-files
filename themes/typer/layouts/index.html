@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+{{ if .Site.Params.lang }}
+<html lang="{{ .Site.Params.lang }}">
+{{ else }}
 <html lang="en">
+{{ end }}
   {{- partial "head.html" . -}}
   {{- partial "header.html" . -}}
 <body>

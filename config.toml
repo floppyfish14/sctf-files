@@ -22,6 +22,7 @@ URL = "css/social.css"
 URL = "images/favicon.png"
 
 [params]
+lang = "en"
 typerfile = "js/typer.txt"
 title = "SeattleCTF | Become L33t"
 description = "A group set out to become the best penetration testers."
