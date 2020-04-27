@@ -1,7 +1,7 @@
 <head><title>{{ .Site.Params.title }}</title>
 
 {{ range .Site.Params.plugins.css }}
-<link rel="stylesheet" href="{{ .URL | absURL }} ">
+<link rel="stylesheet" href="{{ .URL | absURL }}">
 {{ end }}
 {{ range .Site.Params.plugins.favicon }}
 <link rel="icon" type="image/png" href="{{ .URL | absURL }}">

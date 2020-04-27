@@ -1,3 +1,11 @@
+{{ with .Site.Params.twitter }}
+<meta name="twitter:card" content="{{ .type }}">
+<meta name="twitter:site" content="{{ .site }}">
+<meta name="twitter:creator" content="{{ .creator }}">
+<meta name="twitter:title" content="{{ .title }}">
+<meta name="twitter:description" content="{{ .description }}">
+<meta name="twitter:image:src" content="{{ .image-src }}">
+
 <div id="social" class="fade-in">
 {{ with .Site.Params.social }}
   {{ range sort . "weight"}}

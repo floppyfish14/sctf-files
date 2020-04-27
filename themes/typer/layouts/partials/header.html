@@ -1,3 +1,7 @@
 
   <meta name="description" content="{{ .Site.Params.description }}">
+
+{{ range .Site.Params.plugins.analytics }}
+<link rel="stylesheet" href="{{ .URL | absURL }}">
+{{ end }}
 </head>
