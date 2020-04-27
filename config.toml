@@ -9,8 +9,6 @@ theme = "typer"
 URL = "js/jquery.min.js"
 [[params.plugins.js]]
 URL = "js/typer.js"
-[[params.plugins.analytics]]
-URL = "js/analytics.js"
 
 #CSS
 [[params.plugins.css]]
@@ -27,6 +25,7 @@ URL = "images/favicon.png"
 typerfile = "js/typer.txt"
 title = "SeattleCTF | Become L33t"
 description = "A group set out to become the best penetration testers."
+analytics = "js/analytics.js"
 
 [[params.twittercard]]
   type = "summary"

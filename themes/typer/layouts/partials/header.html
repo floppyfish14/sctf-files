@@ -1,7 +1,17 @@
+{{ range .Site.Params.twittercard }}
+<meta name="twitter:card" content="{{ .type }}">
+<meta name="twitter:site" content="{{ .site }}">
+<meta property="og:url" content="{{ .url }}">
+<meta property="og:title" content="{{ .title }}">
+<meta property="og:description" content="{{ .description }}">
+<meta property="og:image" content="{{ .imagesrc }}">
+{{ end }}
 
-  <meta name="description" content="{{ .Site.Params.description }}">
+{{ if .Site.Params.description }}
+<meta name="description" content="{{ .Site.Params.description }}">
+{{ end }}
 
-{{ range .Site.Params.plugins.analytics }}
-<link rel="stylesheet" href="{{ .URL | absURL }}">
+{{ if .Site.Params.analytics }}
+<link rel="stylesheet" href="{{ .Site.Params.analytics | absURL }}">
 {{ end }}
 </head>
