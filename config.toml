@@ -28,14 +28,14 @@ typerfile = "js/typer.txt"
 title = "SeattleCTF | Become L33t"
 description = "A group set out to become the best penetration testers."
 
-[[params.twitter.card]]
-type = "summary"
-site = "@SeattleCTF"
-creator = "@SeattleCTF"
-title = "Become l33t through CTFs"
-description = "A group set out to become the best penetration testers."
-imagesrc = "https://seattlectf.com/images/favicon.png"
-url = "https://seattlectf.com"
+[[params.twittercard]]
+  type = "summary"
+  site = "@SeattleCTF"
+  creator = "@SeattleCTF"
+  title = "Become l33t through CTFs"
+  description = "A group set out to become the best penetration testers."
+  imagesrc = "https://seattlectf.com/images/favicon.png"
+  url = "https://seattlectf.com"
 
 [[params.social]]
   name = "Slack"
