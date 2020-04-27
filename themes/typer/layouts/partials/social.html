@@ -1,9 +1,10 @@
 {{ with .Site.Params.twitter }}
 <meta name="twitter:card" content="{{ .type }}">
-<meta name="twitter:site" content="{{ .url }}">
-<meta name="twitter:title" content="{{ .title }}">
-<meta name="twitter:description" content="{{ .description }}">
-<meta name="twitter:image" content="{{ .imagesrc }}">
+<meta name="twitter:site" content="{{ .site }}">
+<meta property="og:url" content="{{ .url }}">
+<meta property="og:title" content="{{ .title }}">
+<meta property="og:description" content="{{ .description }}">
+<meta property="og:image" content="{{ .imagesrc }}">
 {{ end }}
 
 <div id="social" class="fade-in">

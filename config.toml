@@ -30,10 +30,12 @@ description = "A group set out to become the best penetration testers."
 
 [[params.twitter.card]]
 type = "summary"
-url = "@SeattleCTF"
+site = "@SeattleCTF"
+creator = "@SeattleCTF"
 title = "Become l33t through CTFs"
 description = "A group set out to become the best penetration testers."
 imagesrc = "https://seattlectf.com/images/favicon.png"
+url = "https://seattlectf.com"
 
 [[params.social]]
   name = "Slack"
