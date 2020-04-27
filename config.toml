@@ -33,7 +33,7 @@ analytics = "js/analytics.js"
   site = "@SeattleCTF"
   creator = "@SeattleCTF"
   title = "Become l33t through CTFs"
-  description = "A group set out to become the best penetration testers."
+  description = "A group dedicated to becoming the best penetration testers. We play Capture the Flags (CTFs) to hone our skills as computer security experts. Join us in our meetings and become a l33t hacker."
   imagesrc = "https://seattlectf.com/images/favicon.png"
   url = "https://seattlectf.com"
 

@@ -2,7 +2,7 @@
 {{ if .Site.Params.lang }}
 <html lang="{{ .Site.Params.lang }}">
 {{ else }}
-<html lang="en">
+<html lang="en" charset="utf-8">
 {{ end }}
   {{- partial "head.html" . -}}
   {{- partial "header.html" . -}}
