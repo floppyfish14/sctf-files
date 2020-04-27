@@ -29,8 +29,8 @@ title = "SeattleCTF | Become L33t"
 description = "A group set out to become the best penetration testers."
 
 [[params.twitter.card]]
-type = "summary_large_image"
-site = "@SeattleCTF"
+type = "summary"
+url = "@SeattleCTF"
 creator = "@SeattleCTF"
 title = "Become l33t through CTFs"
 description = "A group set out to become the best penetration testers."
