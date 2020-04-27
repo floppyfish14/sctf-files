@@ -24,6 +24,7 @@ URL = "images/favicon.png"
 [params]
 typerfile = "js/typer.txt"
 title = "SeattleCTF | Become L33t"
+description = "A group set out to become the best penetration testers we can be."
 
 [[params.social]]
   name = "Slack"
