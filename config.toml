@@ -34,7 +34,7 @@ site = "@SeattleCTF"
 creator = "@SeattleCTF"
 title = "Become l33t through CTFs"
 description = "A group set out to become the best penetration testers."
-image-src = "https://seattlectf.com/images/favicon.png"
+imagesrc = "https://seattlectf.com/images/favicon.png"
 
 [[params.social]]
   name = "Slack"
