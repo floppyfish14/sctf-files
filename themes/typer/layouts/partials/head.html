@@ -1,4 +1,4 @@
-<title>{{ .Site.Params.title }}</title>
+<head><title>{{ .Site.Params.title }}</title>
 
 {{ range .Site.Params.plugins.css }}
 <link rel="stylesheet" href="{{ .URL | absURL }} ">
