@@ -42,6 +42,13 @@ analytics = "js/analytics.js"
   imagesrc = "https://seattlectf.com/images/favicon.png"
   url = "https://seattlectf.com"
 
+[[params.opengraph]]
+  title = "SeattleCTF | Become L33t"
+  image = "images/logo.png"
+  url = "https://seattlectf.com"
+  site_name = "SeattleCTF Flag Grabbers"
+  type = "blog"
+
 [[params.social]]
   name = "Slack"
   icon = "fab fa-slack"

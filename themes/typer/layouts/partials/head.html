@@ -1,5 +1,13 @@
 <head><title>{{ .Site.Params.title }}</title>
 
+{{ range .Site.Params.opengraph }}
+<meta property="og:title" content="{{ .title }}">
+<meta property="og:image" content="{{ .image | absURL }}">
+<meta property="og:url" content="{{ .url | absURL }}">
+<meta property="og:site_name" content="{{ .site_name }}">
+<meta property="og:type" content="{{ .type }}">
+{{ end }}
+
 {{ range .Site.Params.plugins.css }}
 <link rel="stylesheet" href="{{ .URL | absURL }}">
 {{ end }}
