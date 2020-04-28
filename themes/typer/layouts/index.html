@@ -5,10 +5,8 @@
 <html lang="en" charset="utf-8">
 {{ end }}
 {{ range .Site.Params.plugins.logo }}
-<img class="center logo" src="{{ .URL | absURL }}" alt-text="SeattleCTF Logo">
+<img class="center logo fade-in" src="{{ .URL | absURL }}" alt-text="SeattleCTF Logo">
 {{ end }}
-<h1 class="title-text center">{{ .Site.Params.shortTitle }}</h1>
-
   {{- partial "head.html" . -}}
   {{- partial "header.html" . -}}
 <body>
