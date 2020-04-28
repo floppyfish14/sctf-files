@@ -17,14 +17,19 @@ URL = "css/typer.css"
 URL = "css/fa.css"
 [[params.plugins.css]]
 URL = "css/social.css"
+[[params.plugins.css]]
+URL = "css/custom.css"
 
 [[params.plugins.favicon]]
 URL = "images/favicon.png"
+[[params.plugins.logo]]
+URL = "images/logo.png"
 
 [params]
 lang = "en"
 typerfile = "js/typer.txt"
 title = "SeattleCTF | Become L33t"
+shortTitle = "Become L33t"
 description = "A group set out to become the best penetration testers."
 analytics = "js/analytics.js"
 

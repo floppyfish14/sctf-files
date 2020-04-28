@@ -7,7 +7,7 @@
 <meta property="og:image" content="{{ .imagesrc }}">
 {{ end }}
 
-<div id="social" class="fade-in">
+<div id="social" class="fade-in center">
 {{ with .Site.Params.social }}
   {{ range sort . "weight"}}
       <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
