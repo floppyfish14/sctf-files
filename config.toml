@@ -30,7 +30,7 @@ lang = "en"
 typerfile = "js/typer.txt"
 title = "SeattleCTF | Become L33t"
 shortTitle = "Become L33t"
-description = "A group set out to become the best penetration testers."
+description = "A group dedicated to becoming the best penetration testers. We play Capture the Flags (CTFs) to hone our skills as computer security experts. Join us in our meetings and become a l33t hacker."
 analytics = "js/analytics.js"
 
 [[params.twittercard]]
