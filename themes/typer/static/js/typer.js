@@ -97,6 +97,7 @@
                 }
                 if(counter > 0) {
                         document.getElementById("social").style.display="inline-block";
+                        cook();
                 }
         }
 }

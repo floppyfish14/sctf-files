@@ -1,5 +1,9 @@
 <head><title>{{ .Site.Params.title }}</title>
 
+{{ range .Site.Params.plugins.cookies }}
+<link rel="text/javascript" src="{{ .URL | absURL }}">
+{{ end }}
+
 {{ range .Site.Params.opengraph }}
 <meta property="og:title" content="{{ .title }}">
 <meta property="og:image" content="{{ .image | absURL }}">

@@ -6,6 +6,10 @@ theme = "typer"
 #JS plugins
 #place jquery first always
 [[params.plugins.js]]
+URL = "js/cookies.js"
+[[params.plugins.js]]
+URL = "js/analytics.js"
+[[params.plugins.js]]
 URL = "js/jquery.min.js"
 [[params.plugins.js]]
 URL = "js/typer.js"
@@ -19,6 +23,8 @@ URL = "css/fa.css"
 URL = "css/social.css"
 [[params.plugins.css]]
 URL = "css/custom.css"
+[[params.plugins.css]]
+URL = "css/cookies.css"
 
 [[params.plugins.favicon]]
 URL = "images/favicon.png"
@@ -31,7 +37,6 @@ typerfile = "js/typer.txt"
 title = "SeattleCTF | Become L33t"
 shortTitle = "Become L33t"
 description = "A group dedicated to becoming the best penetration testers. We play Capture the Flags (CTFs) to hone our skills as computer security experts. Join us in our meetings and become a l33t hacker."
-analytics = "js/analytics.js"
 
 [[params.twittercard]]
   type = "summary"
