@@ -34,8 +34,8 @@ URL = "images/logo.png"
 [params]
 lang = "en"
 typerfile = "js/typer.txt"
-title = "SeattleCTF | Learn to hack"
-shortTitle = "Become L33t"
+title = "SeattleCTF | Learn to Hack"
+shortTitle = "Learn to Hack"
 description = "A group dedicated to becoming the best penetration testers. We play Capture the Flags (CTFs) to hone our skills as computer security experts. Join us in our meetings and become a l33t hacker."
 
 [[params.twittercard]]
