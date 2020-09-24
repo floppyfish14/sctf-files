@@ -58,7 +58,7 @@ description = "A group dedicated to becoming the best penetration testers. We pl
   name = "Slack"
   icon = "fab fa-slack"
   weight = "1"
-  url = "https://joinslack.seattlectf.com"
+  url = "https://join.slack.com/t/seattlectf/shared_invite/zt-d7oujk13-AttPbmCjLOkbyJ7G1UIfOg"
 [[params.social]]
   name = "Meetup"
   icon = "fab fa-meetup"
