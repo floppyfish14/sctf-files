@@ -1,10 +1,11 @@
 #!/bin/bash
 # A script to help with versioning
-REVISION=$(git log --oneline | wc -l)
-TAG=$(git describe --tags)
+revisioncount=`git log --oneline | wc -l`
+projectversion=`git describe --tags --long`
+cleanversion=${projectversion%%-*}
 
-NEWTAG="$TAG.$REVISION"
-echo $NEWTAG
+#echo "$projectversion-$revisioncount"
+echo "$cleanversion.$revisioncount"
 
-git tag $NEWTAG
-git push origin $NEWTAG
+git tag "$cleanversion.$revisioncount"
+git push origin "$cleanversion.$revisioncount"
