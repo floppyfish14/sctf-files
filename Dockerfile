@@ -14,5 +14,4 @@ RUN hugo -D -d=/src -s=/src
 
 FROM nginx
 
-RUN rm /src/Dockerfile
 COPY --from=hugo /src/* /usr/share/nginx/html/
