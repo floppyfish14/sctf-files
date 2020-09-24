@@ -5,7 +5,8 @@ projectversion=`git describe --tags --long`
 cleanversion=${projectversion%%-*}
 
 #echo "$projectversion-$revisioncount"
-echo "$cleanversion.$revisioncount"
+#echo "$cleanversion.$revisioncount"
+echo "$revisioncount"
 
-git tag "$cleanversion.$revisioncount"
-git push origin "$cleanversion.$revisioncount"
+#git tag "$cleanversion.$revisioncount"
+#git push origin "$cleanversion.$revisioncount"
