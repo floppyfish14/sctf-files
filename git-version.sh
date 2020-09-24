@@ -5,3 +5,6 @@ TAG=$(git describe --tags)
 
 NEWTAG="$TAG.$REVISION"
 echo $NEWTAG
+
+git tag $NEWTAG
+git push origin $NEWTAG
