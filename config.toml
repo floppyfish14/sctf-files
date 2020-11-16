@@ -74,3 +74,8 @@ description = "A group dedicated to becoming the best penetration testers. We pl
   icon = "fab fa-twitter"
   weight = "4"
   url = "https://twitter.com/seattlectf"
+[[params.social]]
+  name = "Threadless"
+  icon = "fas fa-shopping-bag"
+  wight = "5"
+  url = "https://seattlectf.threadless.com"
